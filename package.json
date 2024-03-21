@@ -1,0 +1,34 @@
+{
+  "name": "TransactionsProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chepurisunil3/TransactionsProject.git"
+  },
+  "keywords": [],
+  "author": "Sunil Chepuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chepurisunil3/TransactionsProject/issues"
+  },
+  "homepage": "https://github.com/chepurisunil3/TransactionsProject#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "http-terminator": "^3.2.0",
+    "mongoose": "^6.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.18"
+  }
+}
